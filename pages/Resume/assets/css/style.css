@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 5px 20px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 35px; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 8px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 8px; 
+    border-radius: 4px; 
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+main {
+    padding: 80px 20px 20px;
+    background-color: #377dc7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.bio h1 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 24px;
+}
+
+.bio p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #000000;
+}
+
+.resume-content {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+.basic-info {
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.basic-info h2 {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.basic-info p {
+    margin: 5px 0;
+    font-size: 18px;
+}
