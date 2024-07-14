@@ -49,10 +49,11 @@ nav ul li a:hover {
 }
 
 main {
+    background: url('https://orig00.deviantart.net/8862/f/2017/293/d/5/evening_size_by_weilard-dbr7mbn.gif');
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 60px); /* Adjusted to account for fixed header */
+    height: calc(100vh - 60px);
     padding: 20px;
 }
 

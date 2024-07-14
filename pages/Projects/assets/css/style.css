@@ -176,6 +176,7 @@ footer p {
 }
 
 .description {
+    color: #ffffff;
     background-color: #000000;
     padding: 2em;
     border: 1px solid #ccc;
