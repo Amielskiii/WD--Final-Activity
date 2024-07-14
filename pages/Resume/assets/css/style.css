@@ -2,7 +2,7 @@ body {
     background: url('https://orig00.deviantart.net/8862/f/2017/293/d/5/evening_size_by_weilard-dbr7mbn.gif');
     margin: 0;
     font-family: 'Pixelify Sans', sans-serif;
-    color: #000000;
+    color: #333;
 }
 
 header {
@@ -62,7 +62,7 @@ main {
     padding: 20px;
 }
 
-.profile {
+.profile {  
     display: flex;
     align-items: center;
     margin-bottom: 20px;
