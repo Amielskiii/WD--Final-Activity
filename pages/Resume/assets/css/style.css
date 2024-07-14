@@ -1,4 +1,6 @@
 body {
+    background: no-repeat;
+    background size: cover;
     background: url('https://orig00.deviantart.net/8862/f/2017/293/d/5/evening_size_by_weilard-dbr7mbn.gif');
     margin: 0;
     font-family: 'Pixelify Sans', sans-serif;
@@ -52,6 +54,8 @@ nav ul li a:hover {
 }
 
 main {
+    background: no-repeat;
+    background size: cover;
     padding: 80px 20px 20px;
     background: url('https://orig00.deviantart.net/8862/f/2017/293/d/5/evening_size_by_weilard-dbr7mbn.gif');
 }
