@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background-color: #377dc7;
+    background: url('https://orig00.deviantart.net/8862/f/2017/293/d/5/evening_size_by_weilard-dbr7mbn.gif');
     display: flex;
     flex-direction: column;
 }
@@ -64,11 +64,11 @@ nav ul li a:hover {
 
 main {
     padding: 80px 20px 20px;
-    background-color: #377dc7;
+    background: url('https://orig00.deviantart.net/8862/f/2017/293/d/5/evening_size_by_weilard-dbr7mbn.gif');
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1; /* Make main content take up available space */
+    flex: 1; 
 }
 
 .project-gallery {
@@ -173,4 +173,13 @@ footer {
 footer p {
     margin: 0;
     font-size: 14px;
+}
+
+.description {
+    background-color: #000000;
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto 2em;
 }
