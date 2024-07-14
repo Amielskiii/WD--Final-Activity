@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://i.pinimg.com/originals/8c/ae/95/8cae953fe69031b3c632c84d5ae53909.jpg" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../Home/index.html">Home</a></li>
+                <li><a href="../About me/index.html">About</a></li>
+                <li><a href="../Projects/index.html">Projects</a></li>
+                <li><a href="../Contact/index.html">Contact</a></li>
+                <li><a href="credit.html">Credit</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-container">
+            <h1>Contact Me</h1>
+            <div class="contact-icons">
+                <div id="address-icon">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/home.png" alt="Address Icon">
+                </div>
+                <div id="phone-icon">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/phone.png" alt="Phone Icon">
+                </div>
+                <div id="email-icon">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/email.png" alt="Email Icon">
+                </div>
+            </div>
+            <div id="address-info" class="contact-info">
+                <p>22 Cardinal street, St. Francis subdivision, brgy. Pandayan, Meycauayan, Bulacan</p>
+            </div>
+            <div id="phone-info" class="contact-info">
+                <p>(+63) 916-750-9848</p>
+            </div>
+            <div id="email-info" class="contact-info">
+                <p>azucena.timothyamiel@gmail.com</p>
+            </div>
+            <div class="contact-form">
+                <input type="email" id="user-email" placeholder="Your Email">
+                <textarea id="user-message" placeholder="Your Message"></textarea>
+                <button type="submit" onclick="sendEmail()">Send</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/timothyamiel.azucena" target="_blank"><img src="../Contact/assets/image/Facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/ichuboiamielskiii?igsh=cThmZzZnNjN0MXEz&utm_source=qr" target="_blank"><img src="../Contact/assets/image/Instagram.png" alt="Instagram"></a>
+                <a href="https://www.tiktok.com/@amielskiii?_t=8nxUuip71yG&_r=1" target="_blank"><img src="../Contact/assets/image/Tiktok.png" alt="TikTok"></a>
+            </div>
+            <p>All rights reserved. Website made by yours truly :)</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('address-icon').addEventListener('click', function() {
+            var info = document.getElementById('address-info');
+            info.style.display = info.style.display === 'none' ? 'block' : 'none';
+        });
+
+        document.getElementById('phone-icon').addEventListener('click', function() {
+            var info = document.getElementById('phone-info');
+            info.style.display = info.style.display === 'none' ? 'block' : 'none';
+        });
+
+        document.getElementById('email-icon').addEventListener('click', function() {
+            var info = document.getElementById('email-info');
+            info.style.display = info.style.display === 'none' ? 'block' : 'none';
+        });
+
+        function sendEmail() {
+            var email = document.getElementById('user-email').value;
+            var message = document.getElementById('user-message').value;
+            var mailto_link = 'mailto:yourname@example.com?subject=Contact Form Submission&body=' + encodeURIComponent(message + '\n\nFrom: ' + email);
+            window.location.href = mailto_link;
+        }
+    </script>
+</body>
+</html>

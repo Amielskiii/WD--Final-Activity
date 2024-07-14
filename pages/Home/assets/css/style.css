@@ -58,7 +58,7 @@ main {
 
 .profile-container {
     display: flex;
-    background: rgb(40, 92, 151);
+    background: rgb(0, 0, 0);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
     overflow: hidden;
