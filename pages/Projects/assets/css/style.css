@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     font-family: 'Pixelify Sans', sans-serif;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
 }
 
 body {
@@ -69,6 +69,7 @@ main {
     flex-direction: column;
     align-items: center;
     flex: 1; 
+    color: #ffffff;
 }
 
 .project-gallery {
@@ -176,7 +177,6 @@ footer p {
 }
 
 .description {
-    color: #ffffff;
     background-color: #000000;
     padding: 2em;
     border: 1px solid #ccc;

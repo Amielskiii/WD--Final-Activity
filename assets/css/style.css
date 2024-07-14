@@ -52,7 +52,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 60px); /* Adjusted to account for fixed header */
+    height: calc(100vh - 60px); 
     padding: 20px;
 }
 
