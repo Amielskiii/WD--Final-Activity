@@ -9,18 +9,18 @@
     <img src="./assets/images/Amiel pogi.jpg" alt="Amiel" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Final Activity</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+ Ang pogi ko.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=Amielskiii/WD--Final-Activity)
 
 ---
 
@@ -57,20 +57,17 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+  Demonstrates the use of HTML and our knowledge to design a webpage for our Home page, About me page, Resume, Projects page, Contact page, and Credit page
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Home page
+- About me page
+- Resume
+- Projects page
+- Contact page
+- Credit page
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -117,4 +114,22 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Google fonts | For the fonts of my final activity to add a little bit of style. | https://fonts.google.com/specimen/Pixelify+Sans |
+| Youtube | For some ideas and help for my final activity. | https://www.youtube.com |
+| BG remove | To remove the background of my icon buttons. | https://www.remove.bg |
+| Pinterest | This is where I got some ideas for the layout of my final activity. | https://ph.pinterest.com |
+| Google | I used google to search for icons, gif bg. | https://www.google.com |
+| Blogspot  | HTML AND CSS GUIDES | https://blog.hubspot.com/website/blog/tabid/6307/bid/19727/easy-html-tricks-for-the-non-technical-marketer.aspx#:~:text=To%20make%20a%20horizontal%20line%20in%20HTML%2C%20use%20the%20%3Chr,not%20have%20a%20closing%20tag.|
+| GitHub | For running and deploying of my website | https://www.GitHub.com |
+
+## Deployment Link
+
+https://amielskiii.github.io/WD--Final-Activity/
+
+## Website
+- Small information,
+Home page it welcomes the user to my final activity, About me page, it shows a little background of me and there's the button for my resume with basic information about myself.
+Project page, there's a four icon buttons with title the user can click it and it will redirect the user to my work, for the contact page, there is a container with icons that the user can click to view my address, contact no. , and my personal email. Below it user can message me with their email, lastly for the credits page, there's also another icon buttons for the websites I used for my final project it also responsive so the user can click it.
+
+
+
